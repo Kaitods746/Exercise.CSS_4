@@ -1,0 +1,35 @@
+body {
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: bisque;
+}
+
+.pp {text-align: center;}
+
+.card {
+    width: 250px;
+    padding: 20px;
+    border-radius: 15px;
+    box-shadow: 0 4px 8px black;
+    text-align: center;
+    background-color: white;
+    font-family: sans-serif;
+    margin: 20px;
+}
+
+.profile {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    object-fit: cover;
+}
+
+.subtitle {
+    color: gray;
+    font-size: 14px;
+    margin-top: 5px;
+}
